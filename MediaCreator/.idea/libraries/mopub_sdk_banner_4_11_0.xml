@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="mopub-sdk-banner-4.11.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/b099eb7ef882e2cb49c9647a927527164c44c30f/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b099eb7ef882e2cb49c9647a927527164c44c30f/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mopub/mopub-sdk-banner/4.11.0/b4d2a3d00c0c7646dd28a3690ee6f4200d44a461/mopub-sdk-banner-4.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

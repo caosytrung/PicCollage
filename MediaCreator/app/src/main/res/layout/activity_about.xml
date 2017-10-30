@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    >
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="128dp"
+        android:src="@drawable/icon_app_small"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="MediaCreator"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="v1.1"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        />
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grooo International " />
+
+
+    <TextView
+        android:id="@+id/tvAppStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="My Apps"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvPolicy"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Privacy Policy" />
+
+
+</LinearLayout>

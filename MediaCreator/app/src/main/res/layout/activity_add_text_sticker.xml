@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:id="@+id/ivBackTextSticker"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:padding="4dp"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Insert Text"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/ivSaveTextSticker"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="4dp"
+            android:src="@drawable/icon_checkmark" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        >
+        <TextView
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="24dp"
+            android:lines="1"
+            android:layout_centerInParent="true"
+            android:text="Your Text"
+            android:id="@+id/tvTextToMakeSticker"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/textLine"
+        />
+   <EditText
+       android:id="@+id/edtTextToSticker"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="18dp"
+       android:text="Your Text"
+       android:layout_margin="4dp"
+       android:layout_gravity="center_vertical"
+       android:textColor="@color/textDefaultColor"
+       android:backgroundTint="#FFFFFF"
+       />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#26C6DA"
+        android:layout_height="96dp">
+        <SeekBar
+            android:id="@+id/sbTextSizeSticker"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_height="wrap_content"
+            android:max="64"
+            android:min="16"
+            android:layout_centerInParent="true"
+            android:maxHeight="4dp"
+            android:minHeight="4dp"
+            android:progress="32"
+            android:progressDrawable="@drawable/layer_list"
+
+            />
+        <android.support.v7.widget.RecyclerView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:id="@+id/rvTextStyleSticker"
+            ></android.support.v7.widget.RecyclerView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:id="@+id/rlColor"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginLeft="4dp"
+                android:layout_width="280dp"
+                android:layout_centerVertical="true"
+                android:layout_height="match_parent"
+                android:id="@+id/rvTextColorSticker"
+                ></android.support.v7.widget.RecyclerView>
+            <ImageView
+                android:layout_marginRight="4dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="64dp"
+                android:id="@+id/ivPickColorSticker"
+                android:src="@drawable/icon_pick_color"
+                android:layout_height="64dp"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="72dp">
+
+        <ImageView
+            android:id="@+id/ivTextSizeSticker"
+            android:layout_width="72dp"
+            android:layout_height="56dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/icon_text_size_pink"
+            android:padding="8dp" />
+
+        <ImageView
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/ivTextColorSticker"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/icon_text_color_gray"/>
+
+        <ImageView
+            android:id="@+id/ivTextStyleSticker"
+            android:layout_width="72dp"
+            android:layout_height="56dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/icon_text_style_gray" />
+        <ImageView
+            android:id="@+id/ivSetbackgroundTextSticker"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/icon_save" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    tools:context="vn.com.grooo.mediacreator.ui.MenuFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#ab1111"
+            android:padding="16dp"
+            android:text="FRAGMENT DEMO" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#ab1111"
+            android:padding="16dp"
+            android:text="FRAGMENT DEMO" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#ab1111"
+            android:padding="16dp"
+            android:text="FRAGMENT DEMO" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#ab1111"
+            android:padding="16dp"
+            android:text="FRAGMENT DEMO" />
+    </LinearLayout>
+
+
+</FrameLayout>

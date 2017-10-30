@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="twitter-mopub-3.1.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/b279f9b872ac2b1162268ffa93bfccd551d9821e/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b279f9b872ac2b1162268ffa93bfccd551d9821e/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter.sdk.android/twitter-mopub/3.1.0/287abc6066de19d0484d776288718af5613400ac/twitter-mopub-3.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <vn.com.grooo.mediacreator.photomaker.ui.custom.frame.ImageFrame
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/ivItemFrameDialog"
+        android:scaleType="fitXY"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_item_frame"
+        android:padding="4dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rlTop"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/ivBackToMain"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:padding="16dp"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Media Creator"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+        <ImageView
+            android:id="@+id/ivSwitchCamera"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:padding="16dp"
+            android:src="@drawable/icon_switch_camera"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:background="@color/black_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rvFilterCamera"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rvFilterCamera"
+        android:layout_below="@id/rlTop"
+        >
+        <org.wysaid.view.CameraRecordGLSurfaceView
+            android:id="@+id/cmrPreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            >
+            <SeekBar
+                android:id="@+id/sbEffectZ"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal|top"
+                android:progress="60"
+                android:maxHeight="80dp"
+                />
+            <ImageView
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/bg_snap_camera"
+                android:layout_width="64dp"
+                android:scaleType="centerInside"
+                android:padding="16dp"
+                android:src="@drawable/ic_snap_camera"
+                android:layout_height="64dp"
+                android:id="@+id/ivTakeCamera"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

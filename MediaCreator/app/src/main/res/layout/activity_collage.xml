@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:id="@+id/ivBackFromCollage"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:padding="16dp"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Orrange"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+
+        <ImageView
+            android:id="@+id/ivSaveToImage"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="16dp"
+            android:src="@drawable/icon_download" />
+    </RelativeLayout>
+
+    <vn.com.grooo.mediacreator.photomaker.ui.custom.stiker.StickerView
+        android:id="@+id/stvParent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"></vn.com.grooo.mediacreator.photomaker.ui.custom.stiker.StickerView>
+
+
+    <LinearLayout
+        android:background="#11FF4081"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:padding="8dp"
+            android:id="@+id/ivShowFrame"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_frame"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            />
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_add_image_from_gallery"
+            android:padding="8dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/ivAddPhotoForParent"
+            />
+        <ImageView
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/ivAddImageSticker"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:padding="12dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_image_sticker"
+            />
+        <ImageView
+
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_width="74dp"
+            android:layout_height="72dp"
+            android:padding="12dp"
+            android:id="@+id/ivSaveTextSticker"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_text_sticker"
+            />
+        <ImageView
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="12dp"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:id="@+id/ivChooseBG"
+            android:src="@drawable/icon_save"
+            />
+    </LinearLayout>
+
+</LinearLayout>

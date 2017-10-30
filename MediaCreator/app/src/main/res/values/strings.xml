@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MediaCreator</string>
+    <string name="photo_effect_name">Photo Effect</string>
+
+    <string name="facebook_app_id">411120789290789</string>
+    <string name="fb_login_protocol_scheme">fb411120789290789</string>
+
+    <string name="share_text">Share demo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="christmas">
+        <item>Merry Christmas</item>
+        <item>Happy to you !</item>
+        <item>- Mr.Santa -</item>
+
+    </string-array>
+
+</resources>

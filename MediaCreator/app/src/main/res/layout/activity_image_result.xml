@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:id="@+id/rvTop"
+        android:background="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:padding="4dp"
+            android:gravity="center"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:src="@drawable/icon_back"
+            android:background="@drawable/bg_icon_back_pink"
+            android:id="@+id/tvBackToCollage"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Collage"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/tvbackToHome"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="52sp"
+            android:textColor="@color/white"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lnBot"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="46sp"
+            android:textColor="@color/md_cyan_200"
+            android:id="@+id/tvSaveToGallery"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_gravity="center_vertical"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="46sp"
+            android:textColor="@color/md_cyan_200"
+            android:id="@+id/tvShareFacebook"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_gravity="center_vertical"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="46sp"
+            android:textColor="@color/md_cyan_200"
+            android:id="@+id/tvShareSwiter"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/ivShowImageResult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/rvTop"
+        android:layout_above="@id/lnBot"
+        android:scaleType="centerCrop"
+        />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_remove"
+        android:title="Remove" />
+    <item android:id="@+id/item_change_image"
+        android:title="Change" />
+    <item android:id="@+id/item_effect"
+        android:title="Effect"
+        />
+</menu>

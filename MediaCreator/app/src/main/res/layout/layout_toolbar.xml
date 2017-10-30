@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andexert.library.RippleView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rvToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:rv_color="@color/md_grey_700"
+    app:rv_rippleDuration="100">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarCustom"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorAccent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"    
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgToolbarIcon"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:padding="8dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/tvToolBarTitle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Toolbar Demo"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/imgToolbarDone"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:padding="10dp"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+</com.andexert.library.RippleView>

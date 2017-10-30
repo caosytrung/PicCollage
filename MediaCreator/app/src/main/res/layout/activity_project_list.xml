@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipChildren="false"
+    android:layerType="software" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:id="@+id/ivBackToMain"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:padding="16dp"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Media Creator"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpProjectList"
+        android:layout_width="260dp"
+        android:layout_height="340dp"
+        android:layout_gravity="center_horizontal|center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empty "
+        android:visibility="gone"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:id="@+id/tvEmptyText"
+        android:textSize="24sp"
+        />
+    <ImageView
+        android:id="@+id/ivRemoveProject"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/ic_trash"
+        />
+
+
+</FrameLayout>

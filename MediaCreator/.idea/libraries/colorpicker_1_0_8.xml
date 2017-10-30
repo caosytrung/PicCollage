@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="colorpicker-1.0.8">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/a30ead1dff90d7ccce1c1b8f3c4ec21f8c34fd62/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/a30ead1dff90d7ccce1c1b8f3c4ec21f8c34fd62/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.azeesoft.lib.colorpicker/colorpicker/1.0.8/4a41c69269952c392fe3be83833e79f6deac2c83/colorpicker-1.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="StickerView">
+        <attr name="m_image_init_scale" format="float"/>
+        <attr name="m_max_count" format="integer"/>
+        <attr name="m_image_min_size_scale" format="float"/>
+        <attr name="m_close_icon" format="reference"/>
+        <attr name="m_rotate_icon" format="reference"/>
+        <attr name="m_close_icon_size" format="dimension"/>
+        <attr name="m_rotate_icon_size" format="dimension"/>
+        <attr name="m_outline_width" format="dimension"/>
+        <attr name="m_outline_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="bubble">
+        <attr name="shadowColor" format="color" />
+        <attr name="padding" format="dimension" />
+        <attr name="strokeWidth" format="float" />
+        <attr name="cornerRadius" format="float" />
+        <attr name="halfBaseOfLeg" format="dimension" />
+    </declare-styleable>
+
+
+        <declare-styleable name="MultiViewPager">
+            <!-- Child view inside a page to match the page size against. -->
+            <attr name="matchChildWidth" format="reference" />
+            <!-- Maximum size. -->
+            <attr name="android:maxWidth" />
+            <!-- Maximum size. -->
+            <attr name="android:maxHeight" />
+        </declare-styleable>
+    <declare-styleable name="WavyLineView">
+        <attr name="period" format="float"/>
+        <attr name="strokeColor" format="color"/>
+        <attr name="amplitude" format="dimension"/>
+        <attr name="strokeWidths" format="dimension"/>
+    </declare-styleable>
+
+
+        <declare-styleable name="fading_text_view">
+            <attr name="texts" format="string" />
+            <attr name="timeout" format="integer" />
+        </declare-styleable>
+
+
+</resources>
